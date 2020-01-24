@@ -1,6 +1,6 @@
 import socketio from 'socket.io-client'
 
-const socket = socketio('http://192.168.0.109:3333', {
+const socket = socketio('https://devradarbackend10.herokuapp.com', {
     autoConnect: false
 })
 
